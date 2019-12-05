@@ -7,7 +7,4 @@
     <string name="change_language_settings">Change Language Setting</string>
     <string name="search">Search</string>
     <string name="tap_search_menu">Tap search menu</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

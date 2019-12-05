@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyBottomNavigation</string>
+    <string name="change_language_settings">Ubah Bahasa</string>
+    <string name="search">Cari</string>
+    <string name="tap_search_menu">Klik menu pencarian</string>
+    <string name="title_home">Beranda</string>
+    <string name="title_notifications">Notifikasi</string>
+    <string name="title_profile">Profil</string>
+    <string name="title_dashboard">Dasbor</string>
+</resources>

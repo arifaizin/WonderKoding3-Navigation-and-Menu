@@ -1,6 +1,8 @@
 package com.dicoding.picodiploma.mybottomnavigation
 
+import android.content.Intent
 import android.os.Bundle
+import android.provider.Settings
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
@@ -35,7 +37,8 @@ class MainActivity : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         if (item.itemId == R.id.action_change_settings) {
-            //aksi ketika menu diklik
+            val mIntent = Intent(Settings.ACTION_LOCALE_SETTINGS)
+            startActivity(mIntent)
         } else if (item.itemId == R.id.action_search) {
             Toast.makeText(this, getString(R.string.tap_search_menu), Toast.LENGTH_SHORT).show()
         }
